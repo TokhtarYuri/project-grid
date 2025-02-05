@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./card.css";
+import { ReactComponent as ArrowLeft } from "../../icons/arrow-left.svg";
+import { ReactComponent as ArrowRight } from "../../icons/arrow-right.svg";
+
 
 const Card = ({ project }) => {
   const { images } = project;
@@ -7,7 +10,7 @@ const Card = ({ project }) => {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const imageUrl = images?.[currentImageIndex]?.small || "https://via.placeholder.com/300";
+  const imageUrl = images?.[currentImageIndex]?.small;
 
   const handlePrevImage = () => {
     if (currentImageIndex > 0) {
@@ -24,9 +27,13 @@ const Card = ({ project }) => {
   return (
     <div className="project-card">
       <div className="image-container">
-        <button onClick={handlePrevImage} className="prev-button">{"<"}</button>
+        <button onClick={handlePrevImage} className="prev-button">
+          <ArrowLeft className="icons"/>
+        </button>
         <img src={imageUrl} alt={name} className="project-image" />
-        <button onClick={handleNextImage} className="next-button">{">"}</button>
+        <button onClick={handleNextImage} className="next-button">
+          <ArrowRight className="icons"/>
+        </button>
       </div>
       <h3>{name}</h3>
       <p>📍 Локація: {province || "Не указано"}</p>

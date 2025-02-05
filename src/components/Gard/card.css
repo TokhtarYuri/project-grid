@@ -43,12 +43,7 @@
 }
 
 .image-container button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
     border: none;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
     cursor: pointer;
     border-radius: 50%;
     position: absolute;
@@ -78,4 +73,11 @@ button:hover {
 .project-image {
     max-width: 100%;
     height: auto;
+}
+
+.icons{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
 }
