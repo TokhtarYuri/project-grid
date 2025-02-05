@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-grid/static/css/main.071c4359.css",
+    "main.css": "/project-grid/static/css/main.c48179b6.css",
     "main.js": "/project-grid/static/js/main.0b826d07.js",
     "index.html": "/project-grid/index.html",
     "static/media/arrow-left.svg": "/project-grid/static/media/arrow-left.2b0a65006eb809ec8d9706b9d72c191a.svg",
     "static/media/arrow-right.svg": "/project-grid/static/media/arrow-right.45f911f0ea76c81921575693c5b6bc62.svg",
-    "main.071c4359.css.map": "/project-grid/static/css/main.071c4359.css.map",
+    "main.c48179b6.css.map": "/project-grid/static/css/main.c48179b6.css.map",
     "main.0b826d07.js.map": "/project-grid/static/js/main.0b826d07.js.map"
   },
   "entrypoints": [
-    "static/css/main.071c4359.css",
+    "static/css/main.c48179b6.css",
     "static/js/main.0b826d07.js"
   ]
 }
