@@ -27,13 +27,9 @@ const Card = ({ project }) => {
   return (
     <div className="project-card">
       <div className="image-container">
-        <button onClick={handlePrevImage} className="prev-button">
-          <ArrowLeft className="icons"/>
-        </button>
+        <ArrowLeft onClick={handlePrevImage} className="icons prev-button" />
         <img src={imageUrl} alt={name} className="project-image" />
-        <button onClick={handleNextImage} className="next-button">
-          <ArrowRight className="icons"/>
-        </button>
+        <ArrowRight onClick={handleNextImage} className="icons next-button" />
       </div>
       <h3>{name}</h3>
       <p>📍 Локація: {province || "Не указано"}</p>

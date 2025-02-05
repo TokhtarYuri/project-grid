@@ -42,14 +42,9 @@
     height: auto;
 }
 
-.image-container button {
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
+/* .image-container button {
+   
+} */
 
  .prev-button {
     left: 10px;
@@ -60,7 +55,7 @@
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .image-container {
@@ -76,8 +71,14 @@ button:hover {
 }
 
 .icons{
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
