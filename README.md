@@ -13,13 +13,16 @@ This project is a responsive grid displaying project cards. Each card includes i
    git clone https://github.com/TokhtarYuri/project-grid.git
 
 2. Navigate into the project directory:
+   ```bash
    cd project-grid
  
-3. Install the dependencies:
+4. Install the dependencies:
+   ```bash
    npm install 
 
-4. Running the Project Locally
-   To run the project locally, use the following command: 
+6. Running the Project Locally
+   To run the project locally, use the following command:
+   ```bash
    npm start
 
 ## Deployment to GitHub Pages
